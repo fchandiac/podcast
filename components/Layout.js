@@ -1,15 +1,14 @@
-import { Container } from '@mui/material'
-import React from 'react'
-import Header from './header'
-
+import { Container } from "@mui/material";
+import React from "react";
+import Header from "./header";
 
 export default function Layout(props) {
   return (
     <>
-    <Container>
+      <Container>
         <Header />
-    {props.children}
-    </Container>
+        {props.children}
+      </Container>
     </>
-  )
+  );
 }
