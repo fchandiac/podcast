@@ -18,7 +18,7 @@ export default function Header() {
         <Box
           height={"6vh"}
           position={"absolute"}
-          bottom={"60%"}
+          bottom={"70%"}
           color={"white"}
         >
           <Typography
@@ -42,12 +42,18 @@ export default function Header() {
           >
             EL FINAL
           </Typography>
-          <Box sx={{ backgroundColor: "#0b65f4" }} padding={0.5}>
+          <Box sx={{ backgroundColor: theme.palette.secondary.main }} padding={0.5} display={'flex'}>
             <Typography
               gutterBottom
-              sx={{ fontSize: { xs: "1rem", sm: "2rem" } }}
+              sx={{ fontSize: { xs: "1rem", sm: "2rem" },  paddingRight:1, paddingLeft:1}}
             >
-              con Patricio Ojeda
+              con 
+            </Typography>
+            <Typography
+              gutterBottom
+              sx={{ fontSize: { xs: "1rem", sm: "2rem" }, fontWeight: "bold", paddingRight:1 }}
+            >
+              Patricio Ojeda
             </Typography>
           </Box>
         </Box>

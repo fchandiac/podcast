@@ -1,8 +1,22 @@
 import { Typography, Box, IconButton } from "@mui/material";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { useAppContext } from "@/appProvider";
 
 export default function Player() {
+  const { podcast } = useAppContext();
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    if (podcast.file) {
+      // Verifica si hay un archivo en el podcast y actualiza la URL del archivo de audio
+    audioRef.current.src = podcast.file;
+    audioRef.current.load();
+    audioRef.current.play();
+   
+    }
+  }, [podcast]);
+
   return (
     <>
       <Box
@@ -13,30 +27,21 @@ export default function Player() {
             "linear-gradient(to top, rgba(0, 0, 0, 1)20%, rgba(0, 0, 0, 0))",
         }}
       >
-        {/* <Box
-          sx={{
-            borderRadius: "40px", // Ajusta el radio de borde para hacerlos muy redondos
-            backgroundColor: "#fc466b", // Establece el color de fondo
-            padding: "5px", // Añade un relleno alrededor del contenido
-            display: "inline-block", // Permite que el Box se ajuste al tamaño del contenido
-          }}
-        >
-          <Typography
-            align="center"
-            gutterBottom
-            sx={{ fontSize: ".6rem", margin: 0 }}
-          >
-            reproduciendo
-          </Typography>
-        </Box> */}
-        <Box display={"flex"} marginTop={1}>
-          {/* <IconButton sx={{ fontSize: "3rem", color: "#fc466b" }}>
-            <PlayCircleOutlineIcon fontSize={"inherit"} color="inherit" />
-          </IconButton> */}
-          <audio controls>
-            <source src="/Historia de Chile - Volumen 1.mp3" type="audio/mpeg" />
+        <Box marginTop={1} display={podcast.title ? "block" : "none"}>
+          <audio controls ref={audioRef}>
+         
             Tu navegador no soporta la reproducción de audio.
           </audio>
+          <Box display={podcast.title ? "block" : "none"} sx={{ color: "white" }}>
+            <Typography
+              variant="caption"
+              marginBottom={-1}
+              marginTop={1}
+              paddingLeft={4}
+            >
+              Reproduciendo: {podcast.title}
+            </Typography>
+          </Box>
         </Box>
       </Box>
     </>
