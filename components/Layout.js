@@ -3,6 +3,8 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
+//update
+
 export default function Layout(props) {
   return (
     <>
@@ -14,7 +16,7 @@ export default function Layout(props) {
       
         <Container>{props.children}</Container>
     
- 
+  
       <Footer />
     </Box>
     </>
