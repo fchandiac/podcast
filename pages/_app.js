@@ -7,7 +7,7 @@ import { AppProvider } from "@/appProvider";
 const theme = createTheme(
   {
     palette: {
-      primary: { main: "#ff78ff", contrastText: "#fff" },
+      primary: { main: "#fc1b97", contrastText: "#fff" },
       MUIBorder: { main: rgbToHex("rgba(0, 0, 0, 0.12)") },
       secondary: { main: '#00d4ff', contrastText: '#fff' },
       // error: { main: '#ef5350', contrastText: '#fff' },

@@ -20,16 +20,15 @@ export default function Player() {
   return (
     <>
       <Box
-        height={"10vh"}
+       height={'100%'}
         width={"100vw"}
         sx={{
           backgroundImage:
-            "linear-gradient(to top, rgba(0, 0, 0, 1)20%, rgba(0, 0, 0, 0))",
+            "linear-gradient(to top, rgba(1, 4, 67, 1)5%, rgba(1, 4, 67, .2)60%, rgba(0, 0, 0, 0)100%)",
         }}
       >
-        <Box marginTop={1} display={podcast.title ? "block" : "none"}>
+        <Box marginTop={1} display={podcast.title ? "block" : "none"} marginLeft={5}>
           <audio controls ref={audioRef}>
-         
             Tu navegador no soporta la reproducción de audio.
           </audio>
           <Box display={podcast.title ? "block" : "none"} sx={{ color: "white" }}>

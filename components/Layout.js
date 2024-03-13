@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Box, Container,  } from "@mui/material";
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -6,11 +6,17 @@ import Footer from "./Footer";
 export default function Layout(props) {
   return (
     <>
-      <Container>
+    <Box sx={{minWidth: "380px",}}>
+
+        <Container sx={{paddingLeft:{xs:0, sm:0}, paddingRight:{xs:0, sm:0}}}>
         <Header />
-        {props.children}
-      </Container>
+        </Container>
+      
+        <Container>{props.children}</Container>
+    
+ 
       <Footer />
+    </Box>
     </>
   );
 }

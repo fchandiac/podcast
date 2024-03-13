@@ -20,10 +20,11 @@ export default function PodCard(props) {
           backgroundColor: "#000056",
           color: "white",
           borderRadius: "18px",
+       
         }}
       >
         <Grid container>
-          <Grid item xs={2} sx={{ display: "flex", alignItems: "center" }}>
+          <Grid item xs={2} sx={{ display: "flex", alignItems: "center" ,}}>
             <IconButton
               sx={{
                 fontSize: "3rem",
@@ -31,6 +32,7 @@ export default function PodCard(props) {
                 "&:hover": {
                   color: theme.palette.secondary.main,
                 },
+                
               }}
                 onClick={() => {
                     setPodcast({
@@ -71,7 +73,7 @@ export default function PodCard(props) {
                   }}
                   onClick={() => {
                     window.open(
-                      { youtube },
+                        `${youtube}`,
                       "_blank"
                     );
                   }}
@@ -90,7 +92,7 @@ export default function PodCard(props) {
                   }}
                   onClick={() => {
                     window.open(
-                      { spotify },
+                        `${spotify}`,
                       "_blank"
                     );
                   }}

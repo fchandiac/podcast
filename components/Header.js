@@ -10,7 +10,7 @@ export default function Header() {
       <Box position={"relative"}>
         <Box height={"55vh"}>
           <img
-            src="/header.png"
+            src="/pato.png"
             alt="Header"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
@@ -18,15 +18,33 @@ export default function Header() {
         <Box
           height={"6vh"}
           position={"absolute"}
-          bottom={"70%"}
+          bottom={"80%"}
+          padding={0}
+          marginLeft={5}
           color={"white"}
         >
+           <Box display={'inline-flex'} >
+            <Typography
+              gutterBottom
+              sx={{ fontSize: { xs: "1rem", sm: "1.8rem" },  paddingRight:1, margin: 0,  marginBottom: -1}}
+            >
+              Pod
+            </Typography>
+            <Typography
+              gutterBottom
+              color={theme.palette.secondary.main}
+              sx={{ fontSize: { xs: "1rem", sm: "1.8rem", display:'inline-block' }, fontWeight: "bold", paddingRight:1, margin: 0, marginLeft:-1, marginBottom: -1 }}
+            >
+              Cast
+            </Typography>
+          </Box>
           <Typography
             gutterBottom
             sx={{
-              fontSize: { xs: "2rem", sm: "3rem", md: "4rem" },
+              fontSize: { xs: "2rem", sm: "3rem", md: "3.5rem" },
               fontWeight: "bold",
               margin: 0,
+ 
             }}
           >
             HASTA
@@ -34,34 +52,38 @@ export default function Header() {
           <Typography
             gutterBottom
             sx={{
-              fontSize: { xs: "2rem", sm: "3rem", md: "4rem" },
+              fontSize: { xs: "2rem", sm: "3rem", md: "3.5rem" },
               fontWeight: "bold",
               margin: 0,
-              marginTop: { xs: -1, sm: -2 },
+              marginBottom: -1,
+              marginTop: {xs:-2.8, sm:-4, md:-4},
             }}
           >
             EL FINAL
           </Typography>
-          <Box sx={{ backgroundColor: theme.palette.secondary.main }} padding={0.5} display={'flex'}>
+          <Box sx={{ backgroundColor: theme.palette.secondary.main,  borderRadius: 16 }} padding={0.5} display={'inline-flex'} >
             <Typography
               gutterBottom
-              sx={{ fontSize: { xs: "1rem", sm: "2rem" },  paddingRight:1, paddingLeft:1}}
+              sx={{ fontSize: { xs: ".8rem", sm: "1.5rem" }, alignSelf:'center',  paddingRight:1, paddingLeft:1, margin: 0,}}
             >
               con 
             </Typography>
             <Typography
               gutterBottom
-              sx={{ fontSize: { xs: "1rem", sm: "2rem" }, fontWeight: "bold", paddingRight:1 }}
+              sx={{ fontSize: { xs: ".8rem", sm: "1.5rem", },alignSelf:'center', fontWeight: "bold", paddingRight:1, margin: 0, }}
             >
               Patricio Ojeda
+            </Typography>
+            <Typography  sx={{ fontSize: { xs: "1rem", sm: "1.8rem" }, fontWeight: "bold", paddingRight:1, margin: 0, }}>
+            𒊹
             </Typography>
           </Box>
         </Box>
 
         <Box
-          height={"6vh"}
+          height={"18vh"}
           position={"absolute"}
-          bottom={"24px"}
+          bottom={"0px"}
           color={"white"}
         >
           <Player />

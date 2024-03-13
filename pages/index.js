@@ -61,7 +61,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Grid container spacing={1} mt={4}>
+      <Grid container spacing={1} mt={4} mb={20}>
         {pods.map((pod) => (
           <Grid item xs={12} sm={6} key={pod.id}>
             <PodCard

@@ -27,7 +27,7 @@ export default function Footer() {
           display: "flex",
           marginBottom: 1,
           backgroundImage:
-            "linear-gradient(90deg, rgba(0,0,86,1) 0%, rgba(0,112,232,1) 44%, rgba(255,120,255,1) 100%)",
+            "linear-gradient(90deg, rgba(0,0,86,1) 0%, rgba(0,112,232,1) 44%, rgba(252,27,151,1) 100%)",
         }}
       >
         <IconButton
