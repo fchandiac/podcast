@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography, useTheme, Grid } from "@mui/material";
 import Player from "./Player";
 
 export default function Header() {
@@ -23,17 +23,29 @@ export default function Header() {
           marginLeft={5}
           color={"white"}
         >
-           <Box display={'inline-flex'} >
+          <Box display={"inline-flex"}>
             <Typography
               gutterBottom
-              sx={{ fontSize: { xs: "1rem", sm: "1.8rem" },  paddingRight:1, margin: 0,  marginBottom: -1}}
+              sx={{
+                fontSize: { xs: "1rem", sm: "1.8rem" },
+                paddingRight: 1,
+                margin: 0,
+                marginBottom: -1,
+              }}
             >
               Pod
             </Typography>
             <Typography
               gutterBottom
               color={theme.palette.secondary.main}
-              sx={{ fontSize: { xs: "1rem", sm: "1.8rem", display:'inline-block' }, fontWeight: "bold", paddingRight:1, margin: 0, marginLeft:-1, marginBottom: -1 }}
+              sx={{
+                fontSize: { xs: "1rem", sm: "1.8rem", display: "inline-block" },
+                fontWeight: "bold",
+                paddingRight: 1,
+                margin: 0,
+                marginLeft: -1,
+                marginBottom: -1,
+              }}
             >
               Cast
             </Typography>
@@ -44,7 +56,6 @@ export default function Header() {
               fontSize: { xs: "2rem", sm: "3rem", md: "3.5rem" },
               fontWeight: "bold",
               margin: 0,
- 
             }}
           >
             HASTA
@@ -56,28 +67,69 @@ export default function Header() {
               fontWeight: "bold",
               margin: 0,
               marginBottom: -1,
-              marginTop: {xs:-2.8, sm:-4, md:-4},
+              marginTop: { xs: -2.8, sm: -4, md: -4 },
             }}
           >
             EL FINAL
           </Typography>
-          <Box sx={{ backgroundColor: theme.palette.secondary.main,  borderRadius: 16 }} padding={0.5} display={'inline-flex'} >
+          <Box
+            sx={{
+              backgroundColor: theme.palette.secondary.main,
+              borderRadius: 16,
+            }}
+            padding={0.5}
+            display={"inline-flex"}
+          >
             <Typography
               gutterBottom
-              sx={{ fontSize: { xs: ".8rem", sm: "1.5rem" }, alignSelf:'center',  paddingRight:1, paddingLeft:1, margin: 0,}}
+              sx={{
+                fontSize: { xs: ".8rem", sm: "1.5rem" },
+                alignSelf: "center",
+                paddingRight: 1,
+                paddingLeft: 1,
+                margin: 0,
+              }}
             >
-              con 
+              con
             </Typography>
             <Typography
               gutterBottom
-              sx={{ fontSize: { xs: ".8rem", sm: "1.5rem", },alignSelf:'center', fontWeight: "bold", paddingRight:1, margin: 0, }}
+              sx={{
+                fontSize: { xs: ".8rem", sm: "1.5rem" },
+                alignSelf: "center",
+                fontWeight: "bold",
+                paddingRight: 1,
+                margin: 0,
+              }}
             >
               Patricio Ojeda
             </Typography>
-            <Typography  sx={{ fontSize: { xs: "1rem", sm: "1.8rem" }, fontWeight: "bold", paddingRight:1, margin: 0, }}>
-            𒊹
+            <Typography
+              sx={{
+                fontSize: { xs: "1rem", sm: "1.8rem" },
+                fontWeight: "bold",
+                paddingRight: 1,
+                margin: 0,
+              }}
+            >
+              𒊹
             </Typography>
           </Box>
+          <Grid
+            container
+            justifyContent="center" // Centra horizontalmente
+            alignItems="center"
+            padding={4}
+            marginTop={10}
+            zIndex={1000}
+          >
+            <Typography
+              variant="h4"
+              sx={{ fontWeight: "bold", color: "white" }}
+            >
+              ¡Sintonízanos en Vivo!
+            </Typography>
+          </Grid>
         </Box>
 
         <Box
