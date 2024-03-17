@@ -7,46 +7,14 @@ const pods = [
     id: 1,
     key: 1,
     title: "Hasta el final - Episodio 1",
-    description: "La historia de Chile 01",
-    date: "01-03-2024",
-    duration: "00:45:00",
-    file: "/Historia de Chile - Volumen 1.mp3",
-    youtube: "https://www.youtube.com/watch?v=892ZB0MhJpE",
-    spotify: "https://open.spotify.com/show/5v9ZG3z3l9y0pRtR9pKwvE",
-  },
-  {
-    id: 2,
-    key: 2,
-    title: "Hasta el final - Episodio 2",
-    description: "La historia de Chile 02",
-    date: "10-03-2024",
-    duration: "00:45:00",
-    file: "/Historia de Chile - Volumen 2.mp3",
-    youtube: "https://www.youtube.com/watch?v=GT67fD6rgcc",
-    spotify: "https://open.spotify.com/show/5v9ZG3z3l9y0pRtR9pKwvE",
-  },
-  {
-    id: 3,
-    key: 3,
-    title: "Hasta el final - Episodio 3",
-    description: "La historia de Chile 03",
-    date: "20-03-2024",
-    duration: "00:45:00",
-    file: "/Historia de Chile - Volumen 3.mp3",
-    youtube: "https://www.youtube.com/watch?v=K7YGFkMEe3Q",
-    spotify: "https://open.spotify.com/show/5v9ZG3z3l9y0pRtR9pKwvE",
-  },
-  {
-    id: 4,
-    key: 4,
-    title: "Hasta el final - Episodio 4",
-    description: "La historia de Chile 04",
-    date: "31-03-2024",
-    duration: "00:45:00",
-    file: "/Historia de Chile - Volumen 4.mp3",
-    youtube: "https://www.youtube.com/watch?v=FEKzv4j0-jk",
-    spotify: "https://open.spotify.com/show/5v9ZG3z3l9y0pRtR9pKwvE",
-  },
+    description: "Invitada: Teresita Hernández",
+    date: "16-03-2024",
+    duration: "00:52:09",
+    file: "/Hasta el Final 16-03-2024.mp3",
+    youtube: "https://www.youtube.com/watch?v=bhunhj4b7XE",
+    spotify: "",
+  }
+  
 ];
 export default function Home() {
   const theme = useTheme();
@@ -63,7 +31,7 @@ export default function Home() {
       </Head>
 
       <Grid container spacing={1} mt={4} mb={20}>
-        <Grid
+        {/* <Grid
           container
           justifyContent="center" // Centra horizontalmente
           alignItems="center"
@@ -74,13 +42,14 @@ export default function Home() {
               backgroundColor: theme.palette.secondary.main,
               borderRadius: 16,
             }}
-            padding={0.5}
+            padding={0}
+            marginTop={-3}
             display={"inline-flex"}
           >
             <Typography
               gutterBottom
               sx={{
-                fontSize: { xs: ".6rem", sm: ".9rem" },
+                fontSize: { xs: ".8rem",},
                 alignSelf: "center",
                 paddingRight: 1,
                 paddingLeft: 1,
@@ -91,30 +60,33 @@ export default function Home() {
               Radio Pablo Neruda FM
             </Typography>
           </Box>
-        </Grid>
-        <Grid
+        </Grid> */}
+        {/* <Grid
           container
           justifyContent="center" // Centra horizontalmente
           alignItems="center"
-          padding={4}
+          padding={2}
         >
+       
           <Box
             sx={{
-              width: "14rem",
-              height: "14rem",
+              width: "8rem",
+              height: "8rem",
               borderRadius: "50%",
               backgroundImage:
                 "linear-gradient(90deg, rgba(0,0,86,1) 0%, rgba(0,112,232,1) 44%, rgba(252,27,151,1) 100%)",
               position: "absolute",
             }}
           />
+        
           <Avatar
             variant="contained"
-            sx={{ width: "10rem", height: "10rem" }}
+            sx={{ width: "6rem", height: "6rem" }}
             src="/neruda.png"
           />
-        </Grid>
-        <Grid
+        
+        </Grid> */}
+        {/* <Grid
           container
           justifyContent="center" // Centra horizontalmente
           alignItems="center"
@@ -127,10 +99,10 @@ export default function Home() {
             />
             Your browser does not support the audio element.
           </audio>
-        </Grid>
+        </Grid> */}
 
         {pods.map((pod) => (
-          <Grid item xs={12} sm={6} key={pod.id} display={"none"}>
+          <Grid item xs={12} sm={6} key={pod.id} display={"block"}>
             <PodCard
               title={pod.title}
               description={pod.description}

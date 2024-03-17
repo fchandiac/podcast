@@ -42,12 +42,13 @@ export default function Footer() {
             },
           }}
           onClick={() => {
-            window.open("https://www.instagram.com/hastaelelfinal/", "_blank");
+            window.open("https://www.instagram.com/patricio.ojedaa/?igsh=YmZ0MDRkcnZtcXc3", "_blank");
           }}
         >
           <FontAwesomeIcon icon={faInstagram} />
         </IconButton>
-        <IconButton
+
+        {/* <IconButton
           sx={{
             fontSize: "1.5rem",
             color: "white",
@@ -63,8 +64,9 @@ export default function Footer() {
           }}
         >
           <FontAwesomeIcon icon={faXTwitter} />
-        </IconButton>
-        <IconButton
+        </IconButton> */}
+
+        {/* <IconButton
           sx={{
             fontSize: "1.5rem",
             color: "white",
@@ -83,7 +85,8 @@ export default function Footer() {
           }}
         >
           <FontAwesomeIcon icon={faSpotify} />
-        </IconButton>
+        </IconButton> */}
+
         <IconButton
             sx={{
                 fontSize: "1.5rem",
@@ -97,13 +100,14 @@ export default function Footer() {
             }}
             onClick={() => {
                 window.open(
-                "https://www.youtube.com/channel/UCe9Jz6b3ZVQ9n3Y7w6hCk2w",
+                "https://www.youtube.com/@patricioojedaalarcon5461",
                 "_blank"
                 );
             }}
         >
             <FontAwesomeIcon icon={faYoutube} />
         </IconButton>
+        
         <IconButton
           sx={{
             fontSize: "1.5rem",
@@ -116,7 +120,7 @@ export default function Footer() {
             },
           }}
           onClick={() => {
-            window.open("https://www.facebook.com/hastaelelfinal", "_blank");
+            window.open("https://www.facebook.com/PatricioOjedaA?mibextid=kFxxJD", "_blank");
           }}
         >
           <FontAwesomeIcon icon={faSquareFacebook} />
