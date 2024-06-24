@@ -123,12 +123,12 @@ export default function Header() {
             marginTop={10}
             zIndex={1000}
           >
-            <Typography
+            {/* <Typography
               variant="h4"
               sx={{ fontWeight: "bold", color: "white" }}
             >
               ¡Sintonízanos en Vivo!
-            </Typography>
+            </Typography> */}
           </Grid>
         </Box>
 
