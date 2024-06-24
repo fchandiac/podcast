@@ -115,30 +115,12 @@ export default function Header() {
               𒊹
             </Typography>
           </Box>
-<<<<<<< HEAD
-          <Grid
-            container
-            justifyContent="center" // Centra horizontalmente
-            alignItems="center"
-            padding={4}
-            marginTop={10}
-            zIndex={1000}
-          >
-            {/* <Typography
-              variant="h4"
-              sx={{ fontWeight: "bold", color: "white" }}
-            >
-              ¡Sintonízanos en Vivo!
-            </Typography> */}
-          </Grid>
-=======
           {/* <Typography
               
               sx={{ fontWeight: "bold", color: "white", fontSize: { xs: "1.5rem", sm: "1.8rem" } }}
             >
               ¡Sintonízanos en Vivo!
             </Typography> */}
->>>>>>> 66ec43bc254c6b699adaf03d48793c112fce5777
         </Box>
 
         <Box
