@@ -10,7 +10,7 @@ export default function Header() {
       <Box position={"relative"}>
         <Box height={"55vh"}>
           <img
-            src="/pato.png"
+            src="/pato01.png"
             alt="Header"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
@@ -27,7 +27,7 @@ export default function Header() {
             <Typography
               gutterBottom
               sx={{
-                fontSize: { xs: "1rem", sm: "1.8rem" },
+                fontSize: { xs: "1.5rem", sm: "1.8rem" },
                 paddingRight: 1,
                 margin: 0,
                 marginBottom: -1,
@@ -39,7 +39,7 @@ export default function Header() {
               gutterBottom
               color={theme.palette.secondary.main}
               sx={{
-                fontSize: { xs: "1rem", sm: "1.8rem", display: "inline-block" },
+                fontSize: { xs: "1.5rem", sm: "1.8rem", display: "inline-block" },
                 fontWeight: "bold",
                 paddingRight: 1,
                 margin: 0,
@@ -53,7 +53,7 @@ export default function Header() {
           <Typography
             gutterBottom
             sx={{
-              fontSize: { xs: "2rem", sm: "3rem", md: "3.5rem" },
+              fontSize: { xs: "3rem", sm: "3rem", md: "3.5rem" },
               fontWeight: "bold",
               margin: 0,
             }}
@@ -63,7 +63,7 @@ export default function Header() {
           <Typography
             gutterBottom
             sx={{
-              fontSize: { xs: "2rem", sm: "3rem", md: "3.5rem" },
+              fontSize: { xs: "3rem", sm: "3rem", md: "3.5rem" },
               fontWeight: "bold",
               margin: 0,
               marginBottom: -1,
@@ -83,7 +83,7 @@ export default function Header() {
             <Typography
               gutterBottom
               sx={{
-                fontSize: { xs: ".8rem", sm: "1.5rem" },
+                fontSize: { xs: "1.5em", sm: "1.5rem" },
                 alignSelf: "center",
                 paddingRight: 1,
                 paddingLeft: 1,
@@ -95,7 +95,7 @@ export default function Header() {
             <Typography
               gutterBottom
               sx={{
-                fontSize: { xs: ".8rem", sm: "1.5rem" },
+                fontSize: { xs: "1.5rem", sm: "1.5rem" },
                 alignSelf: "center",
                 fontWeight: "bold",
                 paddingRight: 1,
@@ -106,7 +106,7 @@ export default function Header() {
             </Typography>
             <Typography
               sx={{
-                fontSize: { xs: "1rem", sm: "1.8rem" },
+                fontSize: { xs: "1.5rem", sm: "1.8rem" },
                 fontWeight: "bold",
                 paddingRight: 1,
                 margin: 0,
@@ -115,6 +115,7 @@ export default function Header() {
               𒊹
             </Typography>
           </Box>
+<<<<<<< HEAD
           <Grid
             container
             justifyContent="center" // Centra horizontalmente
@@ -130,12 +131,20 @@ export default function Header() {
               ¡Sintonízanos en Vivo!
             </Typography> */}
           </Grid>
+=======
+          {/* <Typography
+              
+              sx={{ fontWeight: "bold", color: "white", fontSize: { xs: "1.5rem", sm: "1.8rem" } }}
+            >
+              ¡Sintonízanos en Vivo!
+            </Typography> */}
+>>>>>>> 66ec43bc254c6b699adaf03d48793c112fce5777
         </Box>
 
         <Box
-          height={"18vh"}
+          height={"20vh"}
           position={"absolute"}
-          bottom={"0px"}
+          bottom={"-2px"}
           color={"white"}
         >
           <Player />
