@@ -34,6 +34,7 @@ const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const setPodcast = (podcast) => {
+    console.log("podcast", podcast);
     dispatch({ type: "SET_PODCAST", payload: podcast });
   }
 

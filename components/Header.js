@@ -83,7 +83,7 @@ export default function Header() {
             <Typography
               gutterBottom
               sx={{
-                fontSize: { xs: "1.5em", sm: "1.5rem" },
+                fontSize: { xs: "1.2em", sm: "1.5rem" },
                 alignSelf: "center",
                 paddingRight: 1,
                 paddingLeft: 1,
@@ -95,7 +95,7 @@ export default function Header() {
             <Typography
               gutterBottom
               sx={{
-                fontSize: { xs: "1.5rem", sm: "1.5rem" },
+                fontSize: { xs: "1.2rem", sm: "1.5rem" },
                 alignSelf: "center",
                 fontWeight: "bold",
                 paddingRight: 1,
@@ -106,7 +106,7 @@ export default function Header() {
             </Typography>
             <Typography
               sx={{
-                fontSize: { xs: "1.5rem", sm: "1.8rem" },
+                fontSize: { xs: "1.2rem", sm: "1.8rem" },
                 fontWeight: "bold",
                 paddingRight: 1,
                 margin: 0,
@@ -115,12 +115,6 @@ export default function Header() {
               𒊹
             </Typography>
           </Box>
-          {/* <Typography
-              
-              sx={{ fontWeight: "bold", color: "white", fontSize: { xs: "1.5rem", sm: "1.8rem" } }}
-            >
-              ¡Sintonízanos en Vivo!
-            </Typography> */}
         </Box>
 
         <Box
@@ -133,53 +127,6 @@ export default function Header() {
         </Box>
       </Box>
 
-      {/* <Box sx={{ position: "relative", textAlign: "center" }}>
-        <Box
-          sx={{
-            position: "absolute",
-            top: "50%",
-            left: "10%",
-            transform: "translate(-10%, -70%)",
-            textAlign: "left",
-            color: theme.palette.common.white,
-            zIndex: 1, // Asegurar que el Box del texto esté por encima de la imagen
-            [theme.breakpoints.down("xs")]: {
-              left: "5%",
-              transform: "translate(-5%, -40%)",
-            },
-          }}
-        >
-          <Typography
-            gutterBottom
-            sx={{
-              fontSize: { xs: "2rem", sm: "3rem", md: "4rem" },
-              fontWeight: "bold",
-              margin: 0,
-            }}
-          >
-            HASTA
-          </Typography>
-          <Typography
-            gutterBottom
-            sx={{
-              fontSize: { xs: "2rem", sm: "3rem", md: "4rem" },
-              fontWeight: "bold",
-              margin: 0,
-              marginTop: { xs: -1, sm: -2 },
-            }}
-          >
-            EL FINAL
-          </Typography>
-          <Box sx={{ backgroundColor: "#0b65f4" }} padding={0.5}>
-            <Typography
-              gutterBottom
-              sx={{ fontSize: { xs: "1rem", sm: "2rem" } }}
-            >
-              con Patricio Ojeda
-            </Typography>
-          </Box>
-        </Box>
-      </Box> */}
     </>
   );
 }
