@@ -153,7 +153,7 @@ export default function upload() {
    
         <Grid container spacing={1} mt={2}>
           {podcastList.map((podcast) => (
-            <Grid item xs={12} sm={12} md={8} xl={6} key={podcast.id}>
+            <Grid item xs={12} sm={12} md={6} xl={6} key={podcast.id}>
               <PodCard
                 id={podcast.id}
                 title={podcast.title}
