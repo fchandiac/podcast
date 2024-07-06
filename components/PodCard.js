@@ -53,6 +53,7 @@ export default function PodCard(props) {
           backgroundColor: "#000056",
           color: "white",
           borderRadius: "18px",
+          minHeight: "115px",
         }}
       >
         <Grid container spacing={1}>

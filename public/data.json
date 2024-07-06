@@ -94,7 +94,7 @@
     "description": "Invitado: Daniel Bustos",
     "date": "01-06-2024",
     "duration": "00:50:40",
-    "file": "/Hasta el Final 04-06-2024.mp3",
+    "file": "/11_Invitado_ Daniel Bustos.mp3",
     "youtube": "https://www.youtube.com/watch?v=WJj05yi8HM8",
     "spotify": "https://open.spotify.com/episode/5ZG6ur8NduCMQgnZMFHuj1"
   },
@@ -107,6 +107,28 @@
     "duration": "00:48:56",
     "file": "/12 Mauricio Nilo.mp3",
     "youtube": "https://www.youtube.com/",
+    "spotify": "https://open.spotify.com/"
+  },
+  {
+    "id": 13,
+    "key": 13,
+    "title": "Capítulo 13",
+    "description": "Invitado:  Juan Eduardo Prieto",
+    "date": "15-06-2024",
+    "duration": "00:48:27",
+    "file": "/13_Invitado_ Juan_Eduardo_Prieto.mp3",
+    "youtube": "https://www.youtube.com/watch?v=KYc5eR_iAOs",
+    "spotify": "https://open.spotify.com/episode/2kPigGjTcl3Z2cCLLWNOMQ?si=xJN2w-qwR4mSsuCy7R1eRQ"
+  },
+  {
+    "id": 15,
+    "key": 15,
+    "title": "Capítulo 15",
+    "description": "Invitado: Ignacio Sepúlveda y Patricio Garcés.",
+    "date": "29-06-2004",
+    "duration": "00:48:50",
+    "file": "/15_Invitados_ IgnSep_PatGar.mp3",
+    "youtube": "https://www.youtube.com/watch?v=KYc5eR_iAOs&t=1522s",
     "spotify": "https://open.spotify.com/"
   }
 ]

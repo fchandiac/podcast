@@ -281,6 +281,35 @@ export default function upload() {
                 />
               </Grid>
 
+              <Grid item>
+                <TextField
+                  label={"Youtube"}
+                  variant={"outlined"}
+                  value={podcastData.youtube}
+                  onChange={(e) =>
+                    setPodcastData({ ...podcastData, youtube: e.target.value })
+                  }
+                  fullWidth
+                  required
+                  size="small"
+                />
+              </Grid>
+
+              <Grid item>
+                <TextField
+                  label={"Spotify"}
+                  variant={"outlined"}
+                  value={podcastData.spotify}
+                  onChange={(e) =>
+                    setPodcastData({ ...podcastData, spotify: e.target.value })
+                  }
+                  fullWidth
+                  required
+                  size="small"
+                />
+              </Grid>
+              
+
               <Grid item paddingTop={1}>
                 <Stack direction="row" spacing={1} alignItems="center">
                   <ButtonGroup>
