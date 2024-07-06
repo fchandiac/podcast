@@ -309,7 +309,6 @@ export default function upload() {
                 />
               </Grid>
               
-
               <Grid item paddingTop={1}>
                 <Stack direction="row" spacing={1} alignItems="center">
                   <ButtonGroup>
