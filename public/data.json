@@ -130,5 +130,73 @@
     "file": "/15_Invitados_ IgnSep_PatGar.mp3",
     "youtube": "https://www.youtube.com/watch?v=KYc5eR_iAOs&t=1522s",
     "spotify": "https://open.spotify.com/"
+  },
+  {
+    "id": 16,
+    "key": 16,
+    "title": "Capítulo 16",
+    "description": "¡Abrimos nueva sección!",
+    "date": "06-07-2004",
+    "duration": "00:53:53",
+    "file": "/16 03-08-2024.mp3",
+    "youtube": "",
+    "spotify": "https://open.spotify.com/episode/4jvxi3LnOl38J2iQDqkNLA"
+  },
+  {
+    "id": 17,
+    "key": 17,
+    "title": "Capítulo 17",
+    "description": "Invitado: José Luis Mattas.",
+    "date": "13-07-2004",
+    "duration": "00:51:00",
+    "file": "/17 Hasta el Final 13-07-2024.mp3",
+    "youtube": "",
+    "spotify": "https://open.spotify.com/episode/0RghYROCTseqzSR31A8nmQ"
+  },
+  {
+    "id": 18,
+    "key": 18,
+    "title": "Capítulo 18",
+    "description": "Continuamos con la sección 'La Calle Dice'.",
+    "date": "20-07-2004",
+    "duration": "00:52:10",
+    "file": "/18 Hasta el Final 20-07-2024.mp3",
+    "youtube": "",
+    "spotify": "https://open.spotify.com/episode/0RghYROCTseqzSR31A8nmQ"
+  },
+  {
+    "id": 19,
+    "key": 19,
+    "title": "Capítulo 19",
+    "description": "Invitado: Pablo Gutiérrez.",
+    "date": "27-07-2004",
+    "duration": "00:50:00",
+    "file": "/19 Hasta el Final 27-07-2024.mp3",
+    "youtube": "",
+    "spotify": "https://open.spotify.com/episode/1O7SOqSRNTAwcEl1Vcw0k4"
+  },
+  {
+    "id": 20,
+    "key": 20,
+    "title": "Capítulo 20",
+    "description": "Invitada: Carolina Silva.",
+    "date": "03-08-2004",
+    "duration": "00:52:48",
+    "file": "/20 Hasta el Final 03-08-2024.mp3",
+    "youtube": "",
+    "spotify": "https://open.spotify.com/episode/2VpqKzSd4Y6woilg69I0Jx"
+  },
+  {
+    "id": 21,
+    "key": 21,
+    "title": "Capítulo 18",
+    "description": "Continuamos con la sección 'La Calle Dice'.",
+    "date": "20-07-2004",
+    "duration": "00:54:35",
+    "file": "/21 Hasta el Final 10-08-2024.mp3",
+    "youtube": "",
+    "spotify": "https://open.spotify.com/episode/7LSxaxkxA92eY4F7qzwpsE"
   }
 ]
+
+

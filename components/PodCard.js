@@ -101,6 +101,7 @@ export default function PodCard(props) {
             
                 <IconButton
                   sx={{
+                    display: youtube === "" ? "none" : "flex",
                     fontSize: "1.5rem",
                     color: theme.palette.secondary.main,
                     "&:hover": {
